@@ -156,7 +156,7 @@
         <item>device_personalization_services/AdaptiveAudio__show_promo_notification=false</item>
         <item>device_personalization_services/AdaptiveAudio__use_silence_detector_state_bug_fix=true</item>
 
-        <!-- Live Caption (Pixel 2017 + OEM) -->
+        <!-- Live Caption -->
         <item>device_personalization_services/Captions__enable_augmented_modality=true</item>
         <item>device_personalization_services/Captions__enable_augmented_modality_input=true</item>
         <item>device_personalization_services/Captions__enable_augmented_modality_language_detection=true</item>
@@ -164,14 +164,44 @@
         <item>device_personalization_services/Captions__enable_clearcut_logging=true</item>
         <item>device_personalization_services/Captions__enable_language_detection=true</item>
         <item>device_personalization_services/Captions__enable_punctuations=true</item>
+        <item>device_personalization_services/Captions__available_for_download=en-US;en-GB;en-CA;en-IE;en-AU;en-SG;en-IN;fr-FR;fr-CA;fr-BE;fr-CH;it-IT;it-CH;de-DE;de-AT;de-BE;de-CH;ja-JP;es-ES;es-US</item>
+        <item>device_personalization_services/Captions__manifest_url_template=https://storage.googleapis.com/captions/%{NAMESPACE}_%{VERSION}_manifest.json</item>
+        <item>device_personalization_services/Captions__model_version_v1=20190613</item>
+        <item>device_personalization_services/Captions__model_version_v1_2=20200112</item>
+        <item>device_personalization_services/Captions__new_model_version=20210623</item>
+        <item>device_personalization_services/Captions__new_model_version_advanced=20221227</item>
+        <item>device_personalization_services/Captions__speech_threshold=0.2</item>
+        <item>device_personalization_services/Captions__support_lang_id_disabled_after_dismissals=false</item>
+        <item>device_personalization_services/Captions__supported_languages=en-US;fr-FR;it-IT;de-DE;ja-JP;es-ES</item>
+        <item>device_personalization_services/Captions__supported_languages_beta_quality=ja-JP</item>
+        <item>device_personalization_services/Captions__surface_sound_events=true</item>
+        <item>device_personalization_services/Captions__text_transform_augmented_input=true</item>
+        <item>device_personalization_services/Captions__visibility_playing_duration_millis=5000</item>
+        <item>device_personalization_services/Captions__visibility_stopped_duration_millis=1500</item>
 
-        <!-- WallpaperEffects -->
-        <item>device_personalization_services/WallpaperEffects__cinematic_models_mdd_manifest_config=Ct4IEtsICiF3YWxscGFwZXJlZmZlY3RzLWNpbmVtYXRpYy1tb2RlbHMSwgESdWh0dHBzOi8vZGwuZ29vZ2xlLmNvbS9tZGktc2VydmluZy9haWFpLXdhbGxwYXBlcmVmZmVjdHMtY2luZW1hdGljLW1vZGVscy83NDYvNTk2NDgzNDA1MzljOGU2OWRmZGZlYjkzNTk0OTIzYWJmZDBmMGQwNyCM4JQFKig1OTY0ODM0MDUzOWM4ZTY5ZGZkZmViOTM1OTQ5MjNhYmZkMGYwZDA3OhJkZXB0aF9tb2RlbC50ZmxpdGV4AKIBAKoBABLIARJ1aHR0cHM6Ly9kbC5nb29nbGUuY29tL21kaS1zZXJ2aW5nL2FpYWktd2FsbHBhcGVyZWZmZWN0cy1jaW5lbWF0aWMtbW9kZWxzLzc0Ni84NmE3MWYwYTIwYjFhMjhiNTY4MTMwZTliYTZjMTYzZTdhZjQzMTg5IKzsyQQqKDg2YTcxZjBhMjBiMWEyOGI1NjgxMzBlOWJhNmMxNjNlN2FmNDMxODk6GHBlcnNvbl9wb3NlX21vZGVsLnRmbGl0ZXgAogEAqgEAEs0BEnVodHRwczovL2RsLmdvb2dsZS5jb20vbWRpLXNlcnZpbmcvYWlhaS13YWxscGFwZXJlZmZlY3RzLWNpbmVtYXRpYy1tb2RlbHMvNzQ2L2I2NTQxNDFiOTUwNjY3OTVlYjBlNjNlZDRkNzFiZjQxZDQyYjFhNmMgyPPNAiooYjY1NDE0MWI5NTA2Njc5NWViMGU2M2VkNGQ3MWJmNDFkNDJiMWE2YzodcGVyc29uX3NlZ21lbnRlcl9tb2RlbC50ZmxpdGV4AKIBAKoBABLLARJ1aHR0cHM6Ly9kbC5nb29nbGUuY29tL21kaS1zZXJ2aW5nL2FpYWktd2FsbHBhcGVyZWZmZWN0cy1jaW5lbWF0aWMtbW9kZWxzLzc0Ni9lOTllZWJlMDQ2NDk4ZmU2N2MzMzdjZmZkMzkzODM4NTVkMjE0NjM5INCXrwIqKGU5OWVlYmUwNDY0OThmZTY3YzMzN2NmZmQzOTM4Mzg1NWQyMTQ2Mzk6G3JnYmRfaW5wYWludGVyX21vZGVsLnRmbGl0ZXgAogEAqgEAEsQBEnVodHRwczovL2RsLmdvb2dsZS5jb20vbWRpLXNlcnZpbmcvYWlhaS13YWxscGFwZXJlZmZlY3RzLWNpbmVtYXRpYy1tb2RlbHMvNzQ2L2ExNjQ4ZjQ2NDYyZDVmMTExOTVjNmEyYTBhN2M0MTMyZTEwNzJjMDIgsLo6KihhMTY0OGY0NjQ2MmQ1ZjExMTk1YzZhMmEwYTdjNDEzMmUxMDcyYzAyOhVzYWxpZW5jeV9tb2RlbC50ZmxpdGV4AKIBAKoBABgAUABYAGoECAEQAHAAogEAqAEAuAHqBdIBB2RlZmF1bHTaAQDiARsKBwgBEJ+xjRcKBwgCEKCxjRcKBwgDEKGxjRc</item>
-        <item>device_personalization_services/WallpaperEffects__enable_cinematic_effect=true</item>
-        <item>device_personalization_services/WallpaperEffects__enable_cinematic_mdd=true</item>
-        <item>device_personalization_services/WallpaperEffects__enable_person_segment_tpu=false</item>
-        <item>device_personalization_services/WallpaperEffects__return_texturedmesh_with_error_status=true</item>
-        <item>device_personalization_services/WallpaperEffects__use_gpu=true</item>
+        <!-- Live translate -->
+        <item>device_personalization_services/Translate__app_blocklist=com.google.android.talk</item>
+        <item>device_personalization_services/Translate__blue_chip_translate_enabled=true</item>
+        <item>device_personalization_services/Translate__characterset_lang_detection_enabled=true</item>
+        <item>device_personalization_services/Translate__chat_translate_languages=de,en,es,fr,it,ja,hi,zh,ru,pl,pt,ko,th,tr,nl,zh_Hant,sv,da,vi,ar,fa,no,bn,fil</item>
+        <item>device_personalization_services/Translate__copy_to_translate_enabled=true</item>
+        <item>device_personalization_services/Translate__differentiate_simplified_and_traditional_chinese=true</item>
+        <item>device_personalization_services/Translate__disable_translate_without_system_animation=false</item>
+        <item>device_personalization_services/Translate__enable_chronicle_migration=true</item>
+        <item>device_personalization_services/Translate__enable_default_langid_model=true</item>
+        <item>device_personalization_services/Translate__enable_dictionary_langid_detection=true</item>
+        <item>device_personalization_services/Translate__enable_opmv4_service=true</item>
+        <item>device_personalization_services/Translate__enable_settings_backup_restore=false</item>
+        <item>device_personalization_services/Translate__enable_setup_wizard_dialog_v2=false</item>
+        <item>device_personalization_services/Translate__enable_spa_setting=false</item>
+        <item>device_personalization_services/Translate__enable_translate_kit_api_migration=false</item>
+        <item>device_personalization_services/Translate__interpreter_source_languages=de,en,ja,es,fr,it</item>
+        <item>device_personalization_services/Translate__interpreter_target_languages=de,en,ja,es,fr,it</item>
+        <item>device_personalization_services/Translate__replace_auto_translate_copied_text_enabled=true</item>
+        <item>device_personalization_services/Translate__text_to_text_language_list=vi,ja,fa,ro,nl,mr,mt,ar,ms,it,eo,is,et,es,iw,zh,uk,af,id,ur,mk,cy,hi,el,be,pt,lt,hr,lv,hu,ht,te,de,bg,th,bn,tl,pl,tr,kn,sv,gl,ko,sw,cs,da,ta,gu,ka,sl,ca,sk,ga,sq,no,fi,ru,fr,en,zh_Hant,fil</item>
+        <item>device_personalization_services/Translate__translation_service_enabled=true</item>
+        <item>device_personalization_services/Translate__translator_expiration_enabled=true</item>
+        <item>device_personalization_services/Translate__use_translate_kit_streaming_api=true</item>
 
         <!--Gboard -->
         <item>device_personalization_services/SmartRecPixelSearch__enable_gboard_suggestion=true</item>
