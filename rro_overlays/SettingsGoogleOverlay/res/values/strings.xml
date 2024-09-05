@@ -8,4 +8,10 @@
     <string name="config_wallpaper_picker_action">android.intent.action.MAIN</string>
     <string name="config_wallpaper_picker_class">com.google.android.apps.wallpaper.picker.CategoryPickerActivity</string>
     <string name="config_wallpaper_picker_package">com.google.android.apps.wallpaper</string>
+
+    <!-- Show bluetooth device slice -->
+    <string name="config_bt_slice_extra_intent">com.google.android.gms.nearby.discovery.EXTRA_INTENT</string>
+    <string name="config_bt_slice_extra_pending_intent">com.google.android.gms.nearby.discovery.EXTRA_PENDING_INTENT</string>
+    <string name="config_bt_slice_intent_action">com.google.android.gms.nearby.discovery.ACTION_LOG_SLICE_AND_LAUNCH_INTENT</string>
+    <string name="config_bt_slice_pending_intent_action">com.google.android.gms.nearby.discovery.ACTION_LOG_SLICE_AND_SEND_PENDING_INTENT</string>
 </resources>
